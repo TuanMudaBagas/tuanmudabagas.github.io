@@ -33,6 +33,10 @@
         display: none !important;
     }
 
+    .button-triger a {
+        display: none;
+    }
+
     .button-triger {
         margin-left: 103px !important;
         margin-top: -100px;
