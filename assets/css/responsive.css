@@ -36,7 +36,7 @@
     .button-triger {
         margin-left: 103px !important;
         margin-top: -100px;
-        display: none !important;
+        display: none;
     }
 
     .carousel-item .col-md-5 {
