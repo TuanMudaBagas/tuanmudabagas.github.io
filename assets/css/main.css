@@ -144,7 +144,6 @@ body {
 .client-single.position-2 {
     left: -40px;
     top: 105px;
-    width: 80px;
 }
 
 .client-single.position-3 {
@@ -207,8 +206,8 @@ body {
 .client-single.active .client-img:before {
     border-radius: 100%;
     content: '';
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(157, 91, 254)), to(rgb(56, 144, 254)));
-    background-image: linear-gradient(180deg, rgb(185, 15, 0) 0%, rgb(173, 75, 67) 100%);
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(157, 91, 254)), to(rgb(56, 144, 254))); */
+    /* background-image: linear-gradient(180deg, rgb(185, 15, 0) 0%, rgb(173, 75, 67) 100%); */
     padding: 5px;
     width: 160px;
     height: 160px;
@@ -218,10 +217,14 @@ body {
     z-index: -1;
 }
 
+.client-single .inactive img {
+    width: 180px !important;
+}
+
 .client-single .client-img img {
     border-radius: 50%;
     border: 8px solid #EF534C;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .client-single.active .client-img img {
@@ -266,4 +269,12 @@ footer {
 
 .menu-footer a {
     margin-top: 10px !important;
+}
+
+.inactive img {
+    width: 200px !important;
+}
+
+.inactive img {
+    width: 200px !important;
 }
