@@ -144,6 +144,7 @@ body {
 .client-single.position-2 {
     left: -40px;
     top: 105px;
+    width: 80px;
 }
 
 .client-single.position-3 {
